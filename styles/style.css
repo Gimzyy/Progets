@@ -1,453 +1,644 @@
 @font-face {
-    font-family: Roboto;
-    src: url(../media/fonts/Roboto-Regular.ttf);
+  font-family: Roboto;
+  src: url(../media/fonts/Roboto-Regular.ttf);
 }
 
 html {
-    height: 100vh;
+  height: 100vh;
 }
 
 body {
-    height: 100%;
-    overflow-y: auto;
+  height: 100%;
+  overflow-y: auto;
 }
 
 html,
 body {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
-.wrapper {}
+.wrapper {
+}
 
-.wrapper .section-conteiner {}
+.wrapper .section-conteiner {
+}
 
 .wrapper .section-conteiner .section-conteiner-cover {
-    width: 100%;
-    display: flex;
-    max-width: 1200px;
-    margin: 0px auto;
+  width: 100%;
+  display: flex;
+  max-width: 1200px;
+  margin: 0px auto;
 }
 
 .header-item {
-    padding: 4px 10px;
-    margin: 10px;
-    border-radius: 90px;
-    cursor: pointer;
+  padding: 4px 10px;
+  margin: 10px;
+  border-radius: 90px;
+  cursor: pointer;
 }
 
-.txt-title {}
+.txt-title {
+}
 
-.txt-subtitle {}
+.txt-subtitle {
+}
 
-.txt-normal {}
+.txt-normal {
+}
 
 .txt-white {
-    color: white;
-    font-size: 16px;
-    font-family: Roboto;
+  color: white;
+  font-size: 16px;
+  font-family: Roboto;
 }
 
 .txt-black {
-    color: #191919;
-    font-size: 16px;
-    font-family: Roboto;
+  color: #191919;
+  font-size: 16px;
+  font-family: Roboto;
 }
 
-
 /*//////////////////////   HEADER AREA   ////////////////////////*/
-
 .wrapper .header-block {
-    min-height: 40px;
-    background: #191919;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  min-height: 40px;
+  background: #191919;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .header-block .header-conteiner {
-    flex-grow: 1;
+  flex-grow: 1;
 }
 
 .header-block .logo-block {
-    display: flex;
-    flex-direction: row;
-    font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
 }
 
 .header-block .navigation-block {
-    display: flex;
-    flex-direction: row;
-    flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
 }
 
 .header-block .navigation-block .navigation-area {
-    display: flex;
-    flex-direction: row;
-    flex-grow: 1;
-    justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: flex-end;
 }
 
 .header-block .navigation-block .navigation-area .nav-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0;
 }
 
 .header-block .navigation-block .navigation-area .nav-item:hover {
-    background: #115ff5;
+  background: #115ff5;
 }
 
-.header-block .navigation-block .navigation-area .nav-for-you {}
+.header-block .navigation-block .navigation-area .nav-for-you {
+}
 
-.header-block .navigation-block .navigation-area .nav-discover {}
+.header-block .navigation-block .navigation-area .nav-discover {
+}
 
-.header-block .navigation-block .navigation-area .nav-live {}
+.header-block .navigation-block .navigation-area .nav-live {
+}
 
-.header-block .navigation-block .navigation-area .nav-profile {}
+.header-block .navigation-block .navigation-area .nav-profile {
+}
 
-.header-block .navigation-block .navigation-area .nav-jobs {}
+.header-block .navigation-block .navigation-area .nav-jobs {
+}
 
 .header-block .navigation-block .crea-project-area {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header-block .navigation-block .crea-project-area .creat-project-btn {
-    background: #115ff5;
+  background: #115ff5;
 }
 
 .header-block .navigation-block .crea-project-area .creat-project-btn:hover {
-    background: white;
+  background: white;
 }
 
-.header-block .navigation-block .crea-project-area .creat-project-btn:hover>span {
-    color: #115ff5;
+.header-block
+  .navigation-block
+  .crea-project-area
+  .creat-project-btn:hover
+  > span {
+  color: #115ff5;
 }
-
-.header-block .settings-block {}
+.header-block .settings-block {
+}
 
 .header-block .settings-block .settings-utilit {
-    display: flex;
-    flex-direction: row;
-    height: 100%;
-    justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  justify-content: flex-end;
 }
 
 .header-block .settings-block .settings-utilit .sett-item {
-    flex-grow: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid transparent;
-    height: 30px;
-    width: 30px;
-    min-width: 30px;
-    min-height: 30px;
-    max-width: 30px;
-    max-height: 30px;
-    margin: 5px;
-    border-radius: 100%;
-    overflow: hidden;
-    cursor: pointer;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid transparent;
+  height: 30px;
+  width: 30px;
+  min-width: 30px;
+  min-height: 30px;
+  max-width: 30px;
+  max-height: 30px;
+  margin: 5px;
+  border-radius: 100%;
+  overflow: hidden;
+  cursor: pointer;
 }
 
 .header-block .settings-block .settings-utilit .sett-item:hover {
-    border: 2px solid #115ff5;
+  border: 2px solid #115ff5;
 }
 
-.header-block .settings-block .settings-utilit .sett-search {}
-
-.header-block .settings-block .settings-utilit .sett-mail {}
-
-.header-block .settings-block .settings-utilit .sett-alert {}
-
-.header-block .settings-block .settings-utilit .sett-account {}
-
-.header-block .settings-block .settings-utilit .sett-account .account-cover {}
-
-.header-block .settings-block .settings-utilit .sett-account .account-cover .account-avatar {
-    height: 40px;
-    width: 40px;
-    border-radius: 100%;
-    overflow: hidden;
+.header-block .settings-block .settings-utilit .sett-search {
 }
 
-.header-block .settings-block .settings-utilit .sett-account .account-cover .account-avatar img {
-    height: 100%;
-    width: 100%;
+.header-block .settings-block .settings-utilit .sett-mail {
 }
 
-.header-block .settings-block .settings-utilit .sett-app {}
+.header-block .settings-block .settings-utilit .sett-alert {
+}
 
-.header-block .settings-block .settings-utilit .sett-adobe {}
+.header-block .settings-block .settings-utilit .sett-account {
+}
 
+.header-block .settings-block .settings-utilit .sett-account .account-cover {
+}
+
+.header-block
+  .settings-block
+  .settings-utilit
+  .sett-account
+  .account-cover
+  .account-avatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.header-block
+  .settings-block
+  .settings-utilit
+  .sett-account
+  .account-cover
+  .account-avatar
+  img {
+  height: 100%;
+  width: 100%;
+}
+
+.header-block .settings-block .settings-utilit .sett-app {
+}
+
+.header-block .settings-block .settings-utilit .sett-adobe {
+}
 
 /*//////////////////////   SLIDER AREA   ////////////////////////*/
-
 .wrapper .slaider-block {
-    min-height: 250px;
 }
 
-.slaider-block .slaider-conteiner-cover {}
+.slaider-block .slaider-conteiner-cover {
+}
 
-.slaider-block .slaider-conteiner {}
+.slaider-block .slaider-conteiner {
+  max-height: 250px;
+}
 
-.slaider-block .slaider-conteiner .slaid-image {}
+.slaider-block .slaider-conteiner .slaid-image {
+}
 
-.slaider-block .slaider-conteiner .slaid-image .slaid-item {}
+.slaider-block .slaider-conteiner .slaid-image .slaid-item {
+}
 
 .slaider-block .slaider-conteiner .slaid-image .slaid-item img {
-    max-height: 200px;
-    width: 100%;
+  max-height: 200px;
+  width: 100%;
 }
 
 .slaider-block .slaider-conteiner .slaid-flag {
-    min-height: 50px;
+  min-height: 50px;
 }
 
 .slaider-block .slaider-conteiner .slaid-flag .flag-utilit {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 .slaider-block .slaider-conteiner .slaid-flag .flag-utilit .flag-item {
-    margin: 4px;
-    padding: 1px;
+  margin: 4px;
+  padding: 1px;
 }
 
-.slaider-block .slaider-conteiner .slaid-flag .flag-utilit .flag-bs {}
+.slaider-block .slaider-conteiner .slaid-flag .flag-utilit .flag-bs {
+}
 
 .slaider-block .slaider-conteiner .slaid-flag .flag-utilit .flag-bs img {
-    height: 56px;
-    width: 30px;
-    margin-top: -9px;
-    cursor: pointer;
+  height: 56px;
+  width: 30px;
+  margin-top: -9px;
+  cursor: pointer;
 }
 
-.slaider-block .slaider-conteiner .slaid-flag .flag-utilit .flag-el {}
+.slaider-block .slaider-conteiner .slaid-flag .flag-utilit .flag-el {
+}
 
 .slaider-block .slaider-conteiner .slaid-flag .flag-utilit .flag-el img {
-    height: 56px;
-    width: 30px;
-    margin-top: -9px;
-    cursor: pointer;
+  height: 56px;
+  width: 30px;
+  margin-top: -9px;
+  cursor: pointer;
 }
 
-.slaider-block .slaider-conteiner .slaid-flag .flag-utilit .flag-gr {}
+.slaider-block .slaider-conteiner .slaid-flag .flag-utilit .flag-gr {
+}
 
 .slaider-block .slaider-conteiner .slaid-flag .flag-utilit .flag-gr img {
-    height: 56px;
-    width: 30px;
-    margin-top: -9px;
-    cursor: pointer;
+  height: 56px;
+  width: 30px;
+  margin-top: -9px;
+  cursor: pointer;
 }
 
-.slaider-block .slaider-conteiner .slaid-flag .flag-utilit .flag-ph {}
+.slaider-block .slaider-conteiner .slaid-flag .flag-utilit .flag-ph {
+}
 
 .slaider-block .slaider-conteiner .slaid-flag .flag-utilit .flag-ph img {
-    height: 56px;
-    width: 30px;
-    margin-top: -9px;
-    cursor: pointer;
+  height: 56px;
+  width: 30px;
+  margin-top: -9px;
+  cursor: pointer;
 }
 
-.slaider-block .slaider-conteiner .slaid-flag .flag-utilit .flag-mo {}
+.slaider-block .slaider-conteiner .slaid-flag .flag-utilit .flag-mo {
+}
 
 .slaider-block .slaider-conteiner .slaid-flag .flag-utilit .flag-mo img {
-    height: 56px;
-    width: 30px;
-    margin-top: -9px;
-    cursor: pointer;
+  height: 56px;
+  width: 30px;
+  margin-top: -9px;
+  cursor: pointer;
 }
 
-.slaider-block .slaider-conteiner .slaid-flag .flag-utilit .flag-ps {}
+.slaider-block .slaider-conteiner .slaid-flag .flag-utilit .flag-ps {
+}
 
 .slaider-block .slaider-conteiner .slaid-flag .flag-utilit .flag-ps img {
-    height: 56px;
-    width: 30px;
-    margin-top: -9px;
-    cursor: pointer;
+  height: 56px;
+  width: 30px;
+  margin-top: -9px;
+  cursor: pointer;
 }
 
-.slaider-block .slaider-conteiner .slaid-flag .flag-utilit .flag-at {}
+.slaider-block .slaider-conteiner .slaid-flag .flag-utilit .flag-at {
+}
 
 .slaider-block .slaider-conteiner .slaid-flag .flag-utilit .flag-at img {
-    height: 56px;
-    width: 30px;
-    margin-top: -9px;
-    cursor: pointer;
+  height: 56px;
+  width: 30px;
+  margin-top: -9px;
+  cursor: pointer;
 }
 
-.slaider-block .slaider-conteiner .slaid-flag .flag-utilit .flag-rso {}
+.slaider-block .slaider-conteiner .slaid-flag .flag-utilit .flag-rso {
+}
 
 .slaider-block .slaider-conteiner .slaid-flag .flag-utilit .flag-rso img {
-    height: 56px;
-    width: 30px;
-    margin-top: -9px;
-    cursor: pointer;
+  height: 56px;
+  width: 30px;
+  margin-top: -9px;
+  cursor: pointer;
 }
 
-
 /*//////////////////////   CONTENT AREA   ////////////////////////*/
-
 .wrapper .content-block {
-    display: flex;
-    flex-direction: row;
-    border: 2px solid purple;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid purple;
 }
 
 .content-block .content-conteiner-cover {
-    margin-left: 40px;
+  margin-left: 40px;
 }
 
 .content-block .content-conteiner {
-    border: 1px solid gray;
-    height: 600px;
-    width: 300px;
-    margin-top: -175px;
-    background: white;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+  border: 1px solid gray;
+  height: 600px;
+  width: 300px;
+  margin-top: -175px;
+  background: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
-.content-block .content-conteiner .con-item {}
+.content-block .content-conteiner .con-item {
+}
 
 .content-block .content-conteiner .con-avatar {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
-.content-block .content-conteiner .con-avatar .avatar-cover {}
+.content-block .content-conteiner .con-avatar .avatar-cover {
+}
 
 .content-block .content-conteiner .con-avatar .avatar-cover .avatar-icon {
-    height: 80px;
-    width: 80px;
-    border-radius: 100%;
-    overflow: hidden;
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  overflow: hidden;
 }
 
 .content-block .content-conteiner .con-avatar .avatar-cover .avatar-icon img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
-.content-block .content-conteiner .con-name {}
+.content-block .content-conteiner .con-name {
+}
 
-.content-block .content-conteiner .con-info {}
+.content-block .content-conteiner .con-info {
+}
 
-.content-block .content-conteiner .con-geoloc {}
+.content-block .content-conteiner .con-geoloc {
+}
 
-.content-block .content-conteiner .con-foll-mass {}
+.content-block .content-conteiner .con-foll-mass {
+}
 
 .content-block .content-conteiner .con-foll-mass .foll-mass-cover {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
-.content-block .content-conteiner .con-foll-mass .foll-mass-cover .follower-btn {
-    background: #115ff5;
+.content-block
+  .content-conteiner
+  .con-foll-mass
+  .foll-mass-cover
+  .follower-btn {
+  background: #115ff5;
 }
 
-.content-block .content-conteiner .con-foll-mass .foll-mass-cover .follower-btn:hover {
-    background: black;
+.content-block
+  .content-conteiner
+  .con-foll-mass
+  .foll-mass-cover
+  .follower-btn:hover {
+  background: black;
 }
 
-.content-block .content-conteiner .con-foll-mass .foll-mass-cover .follower-btn .foll-item {}
+.content-block
+  .content-conteiner
+  .con-foll-mass
+  .foll-mass-cover
+  .follower-btn
+  .foll-item {
+}
 
 .content-block .content-conteiner .con-foll-mass .foll-mass-cover .massage-btn {
-    background: #115ff5;
+  background: #115ff5;
 }
 
-.content-block .content-conteiner .con-foll-mass .foll-mass-cover .massage-btn .mass-item {}
+.content-block
+  .content-conteiner
+  .con-foll-mass
+  .foll-mass-cover
+  .massage-btn
+  .mass-item {
+}
 
 .content-block .content-conteiner .con-user-tracking {
-    width: 100%;
+  width: 100%;
 }
 
 .content-block .content-conteiner .con-user-tracking .tracking-conteiner {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+
+  flex-direction: column;
 }
 
-.content-block .content-conteiner .con-user-tracking .tracking-conteiner .Proj-item {
-    display: flex;
+.content-block
+  .content-conteiner
+  .con-user-tracking
+  .tracking-conteiner
+  .Proj-item {
+  display: flex;
 }
 
-.content-block .content-conteiner .con-user-tracking .tracking-conteiner .Proj-item .title-item-one {}
-
-.content-block .content-conteiner .con-user-tracking .tracking-conteiner .Proj-item .num-item-one {
-    justify-content: flex-end;
+.content-block
+  .content-conteiner
+  .con-user-tracking
+  .tracking-conteiner
+  .Proj-item
+  .title-item-one {
 }
 
-.content-block .content-conteiner .con-user-tracking .tracking-conteiner .apprec-item {
-    display: flex;
+.content-block
+  .content-conteiner
+  .con-user-tracking
+  .tracking-conteiner
+  .Proj-item
+  .num-item-one {
+  justify-content: flex-end;
 }
 
-.content-block .content-conteiner .con-user-tracking .tracking-conteiner .apprec-item .title-item-two {}
-
-.content-block .content-conteiner .con-user-tracking .tracking-conteiner .apprec-item .num-item-two {}
-
-.content-block .content-conteiner .con-user-tracking .tracking-conteiner .followers-item {
-    display: flex;
+.content-block
+  .content-conteiner
+  .con-user-tracking
+  .tracking-conteiner
+  .apprec-item {
+  display: flex;
 }
 
-.content-block .content-conteiner .con-user-tracking .tracking-conteiner .followers-item .title-item-three {}
-
-.content-block .content-conteiner .con-user-tracking .tracking-conteiner .followers-item .num-item-three {}
-
-.content-block .content-conteiner .con-user-tracking .tracking-conteiner .following-item {
-    display: flex;
+.content-block
+  .content-conteiner
+  .con-user-tracking
+  .tracking-conteiner
+  .apprec-item
+  .title-item-two {
 }
 
-.content-block .content-conteiner .con-user-tracking .tracking-conteiner .following-item .title-item-four {}
+.content-block
+  .content-conteiner
+  .con-user-tracking
+  .tracking-conteiner
+  .apprec-item
+  .num-item-two {
+}
 
-.content-block .content-conteiner .con-user-tracking .tracking-conteiner .following-item .num-item-four {}
+.content-block
+  .content-conteiner
+  .con-user-tracking
+  .tracking-conteiner
+  .followers-item {
+  display: flex;
+}
 
-.content-block .content-conteiner .con-social {}
+.content-block
+  .content-conteiner
+  .con-user-tracking
+  .tracking-conteiner
+  .followers-item
+  .title-item-three {
+}
 
-.content-block .content-conteiner .con-location {}
+.content-block
+  .content-conteiner
+  .con-user-tracking
+  .tracking-conteiner
+  .followers-item
+  .num-item-three {
+}
 
-.content-block .content-conteiner .con-artist-info {}
+.content-block
+  .content-conteiner
+  .con-user-tracking
+  .tracking-conteiner
+  .following-item {
+  display: flex;
+}
 
-.content-block .content-conteiner .con-year {}
+.content-block
+  .content-conteiner
+  .con-user-tracking
+  .tracking-conteiner
+  .following-item
+  .title-item-four {
+}
 
-.content-block .work-conteiner-cover {}
+.content-block
+  .content-conteiner
+  .con-user-tracking
+  .tracking-conteiner
+  .following-item
+  .num-item-four {
+}
+
+.content-block .content-conteiner .con-social {
+}
+
+.content-block .content-conteiner .con-location {
+}
+
+.content-block .content-conteiner .con-artist-info {
+}
+
+.content-block .content-conteiner .con-year {
+}
+
+.content-block .work-conteiner-cover {
+}
 
 .content-block .work-conteiner {
-    border: 1px solid lime;
+  border: 1px solid lime;
+}
+.content-block .work-conteiner .work-item {
 }
 
-.content-block .work-conteiner .work-item {}
+.content-block .work-conteiner .work-item .work-title {
+}
 
-.content-block .work-conteiner .work-item .work-title {}
+.content-block .work-conteiner .work-item .appreciations {
+}
 
-.content-block .work-conteiner .work-item .appreciations {}
+.content-block .work-conteiner .work-item .appreciations .img-conteiner-one {
+}
 
-.content-block .work-conteiner .work-item .appreciations .img-conteiner-one {}
+.content-block
+  .work-conteiner
+  .work-item
+  .appreciations
+  .img-conteiner-one
+  .img-one {
+}
 
-.content-block .work-conteiner .work-item .appreciations .img-conteiner-one .img-one {}
+.content-block
+  .work-conteiner
+  .work-item
+  .appreciations
+  .img-conteiner-one
+  .img-two {
+}
 
-.content-block .work-conteiner .work-item .appreciations .img-conteiner-one .img-two {}
+.content-block
+  .work-conteiner
+  .work-item
+  .appreciations
+  .img-conteiner-one
+  .img-three {
+}
 
-.content-block .work-conteiner .work-item .appreciations .img-conteiner-one .img-three {}
+.content-block .work-conteiner .work-item .appreciations .img-conteiner-two {
+}
 
-.content-block .work-conteiner .work-item .appreciations .img-conteiner-two {}
+.content-block
+  .work-conteiner
+  .work-item
+  .appreciations
+  .img-conteiner-two
+  .img-four {
+}
 
-.content-block .work-conteiner .work-item .appreciations .img-conteiner-two .img-four {}
+.content-block
+  .work-conteiner
+  .work-item
+  .appreciations
+  .img-conteiner-two
+  .img-five {
+}
 
-.content-block .work-conteiner .work-item .appreciations .img-conteiner-two .img-five {}
+.content-block
+  .work-conteiner
+  .work-item
+  .appreciations
+  .img-conteiner-two
+  .img-six {
+}
 
-.content-block .work-conteiner .work-item .appreciations .img-conteiner-two .img-six {}
+.content-block .work-conteiner .work-item .appreciations .img-conteiner-three {
+}
 
-.content-block .work-conteiner .work-item .appreciations .img-conteiner-three {}
+.content-block
+  .work-conteiner
+  .work-item
+  .appreciations
+  .img-conteiner-three
+  .img-seven {
+}
 
-.content-block .work-conteiner .work-item .appreciations .img-conteiner-three .img-seven {}
+.content-block
+  .work-conteiner
+  .work-item
+  .appreciations
+  .img-conteiner-three
+  .img-eight {
+}
 
-.content-block .work-conteiner .work-item .appreciations .img-conteiner-three .img-eight {}
-
-.content-block .work-conteiner .work-item .appreciations .img-conteiner-three .img-nine {}
+.content-block
+  .work-conteiner
+  .work-item
+  .appreciations
+  .img-conteiner-three
+  .img-nine {
+}
