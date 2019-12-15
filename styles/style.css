@@ -222,7 +222,7 @@ body {
 }
 
 .slaider-block .slaider-conteiner {
-  max-height: 250px;
+  position: relative;
 }
 
 .slaider-block .slaider-conteiner .slaid-image {
@@ -231,6 +231,8 @@ body {
 .slaider-block .slaider-conteiner .slaid-image .slaid-item {
   overflow: hidden;
   height: 200px;
+  z-index: 1;
+  position: relative;
 }
 
 .slaider-block .slaider-conteiner .slaid-image .slaid-item img {
@@ -240,7 +242,9 @@ body {
 }
 
 .slaider-block .slaider-conteiner .slaid-flag {
-  min-height: 50px;
+  position: absolute;
+  width: 100%;
+  height: 0;
 }
 
 .slaider-block .slaider-conteiner .slaid-flag .flag-utilit {
@@ -250,9 +254,16 @@ body {
   width: 100%;
 }
 
+.slaider-block .slaider-conteiner .slaid-flag .flag-utilit .flag-item:hover {
+  bottom: 6px !important;
+}
+
 .slaider-block .slaider-conteiner .slaid-flag .flag-utilit .flag-item {
   margin: 4px;
   padding: 1px;
+  transition: all 150ms ease-in-out;
+  bottom: 16px;
+  position: relative;
 }
 
 .slaider-block .slaider-conteiner .slaid-flag .flag-utilit .flag-bs {
