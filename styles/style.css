@@ -368,13 +368,22 @@ body {
   z-index: 2;
   border-radius: 6px;
   box-shadow: 0px 3px 31px -5px grey;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .content-block .content-conteiner .con-item {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.content-block .content-conteiner .con-item:last-child {
+  margin-bottom: 0;
 }
 
 .content-block .content-conteiner .con-avatar {
-  margin-top: 30px;
+  display: flex;
+  justify-content: center;
 }
 
 .content-block .content-conteiner .con-avatar .avatar-cover {
@@ -385,6 +394,7 @@ body {
   width: 80px;
   border-radius: 100%;
   overflow: hidden;
+  display: flex;
 }
 
 .content-block .content-conteiner .con-avatar .avatar-cover .avatar-icon img {
@@ -392,7 +402,8 @@ body {
   height: 100%;
 }
 
-.content-block .content-conteiner .con-name {
+.content-block .content-conteiner .con-name span {
+  font-weight: bold;
 }
 
 .content-block .content-conteiner .con-info {
@@ -407,6 +418,7 @@ body {
 .content-block .content-conteiner .con-foll-mass .foll-mass-cover {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .content-block
@@ -453,6 +465,14 @@ body {
   display: flex;
 
   flex-direction: column;
+}
+
+.content-block
+  .content-conteiner
+  .con-user-tracking
+  .tracking-conteiner
+  .tracking-item-conteiner {
+  border: 1px solid;
 }
 
 .content-block
