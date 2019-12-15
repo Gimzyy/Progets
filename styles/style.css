@@ -229,11 +229,14 @@ body {
 }
 
 .slaider-block .slaider-conteiner .slaid-image .slaid-item {
+  overflow: hidden;
+  height: 200px;
 }
 
 .slaider-block .slaider-conteiner .slaid-image .slaid-item img {
-  max-height: 200px;
   width: 100%;
+  position: relative;
+  top: -220px;
 }
 
 .slaider-block .slaider-conteiner .slaid-flag {
@@ -244,6 +247,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  width: 100%;
 }
 
 .slaider-block .slaider-conteiner .slaid-flag .flag-utilit .flag-item {
