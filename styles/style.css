@@ -374,14 +374,14 @@ body {
 
 .content-block .content-conteiner {
   height: 900px;
-  width: 300px;
+  width: 350px;
   position: relative;
 }
 
 .content-block .statistic-card-conteiner {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: auto;
   top: -120px;
   background: white;
   z-index: 2;
@@ -609,7 +609,7 @@ body {
 .content-block .content-conteiner .con-social .social-twitter {
 }
 
-.content-block .content-conteiner .con-social .social-cub {
+.content-block .content-conteiner .con-social .social-facebook {
 }
 
 .content-block .content-conteiner .con-social .social-in {
@@ -643,56 +643,101 @@ body {
 }
 
 .content-block .work-conteiner-cover {
+  width: 100%;
+  margin-top: 76px;
 }
 
 .content-block .work-conteiner {
   border: 1px solid lime;
+  height: 100%;
+  
 }
 .content-block .work-conteiner .work-item {
+  
 }
 
-.content-block .work-conteiner .work-item .work-title {
+.content-block .work-conteiner  .work-title {
+  height: 35px;
+  
 }
 
-.content-block .work-conteiner .work-item .appreciations {
+.content-block .work-conteiner  .appreciations {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  width: 100%;
+
+
 }
 
-.content-block .work-conteiner .work-item .appreciations .img-conteiner-one {
+.content-block .work-conteiner  .appreciations .img-conteiner-one {
+  max-height: 190px;
+  min-height: 190px;
+  max-width: 290px;
+  min-width: 290px;
+  width: 100%;
+  height: 100%;
+
+  
+ 
 }
 
 .content-block
   .work-conteiner
-  .work-item
   .appreciations
   .img-conteiner-one
   .img-one {
+    border: 1px solid purple;
+ 
+   
 }
+ 
+.content-block
+  .work-conteiner
+  .appreciations
+  .img-conteiner-one
+  .img-one img{
+    max-height: 190px;
+    min-height: 190px;
+    max-width: 290px;
+    min-width: 290px;
+
+  }
+
 
 .content-block
   .work-conteiner
-  .work-item
   .appreciations
   .img-conteiner-one
   .img-two {
+    border: 1px solid royalblue;
 }
 
 .content-block
   .work-conteiner
-  .work-item
   .appreciations
   .img-conteiner-one
   .img-three {
+    border: 1px solid mediumseagreen;
 }
 
-.content-block .work-conteiner .work-item .appreciations .img-conteiner-two {
+.content-block .work-conteiner  .appreciations .img-conteiner-two {
+  max-height: 190px;
+  min-height: 190px;
+  max-width: 290px;
+  min-width: 290px;
+  width: 100%;
+  height: 100%;
+  
+
 }
 
 .content-block
   .work-conteiner
-  .work-item
   .appreciations
   .img-conteiner-two
   .img-four {
+    border: 1px solid yellow;
 }
 
 .content-block
@@ -701,39 +746,47 @@ body {
   .appreciations
   .img-conteiner-two
   .img-five {
+    border: 1px solid hotpink;
 }
 
 .content-block
   .work-conteiner
-  .work-item
   .appreciations
   .img-conteiner-two
   .img-six {
+    border: 1px solid tomato;
 }
 
-.content-block .work-conteiner .work-item .appreciations .img-conteiner-three {
+.content-block .work-conteiner .appreciations .img-conteiner-three {
+  max-height: 190px;
+  min-height: 190px;
+  max-width: 290px;
+  min-width: 290px;
+  width: 100%;
+  height: 100%;
+
 }
 
 .content-block
   .work-conteiner
-  .work-item
   .appreciations
   .img-conteiner-three
   .img-seven {
+    border: 1px solid crimson;
 }
 
 .content-block
   .work-conteiner
-  .work-item
   .appreciations
   .img-conteiner-three
   .img-eight {
+    border: 1px solid violet;
 }
 
 .content-block
   .work-conteiner
-  .work-item
   .appreciations
   .img-conteiner-three
   .img-nine {
+    border: 1px solid coral;
 }
