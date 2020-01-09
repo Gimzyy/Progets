@@ -385,7 +385,7 @@ body {
 }
 
 .content-block .content-conteiner {
-  height: 900px;
+  /* height: 900px; */ /* --- это тут нах не надо страничка получаеться выше чем контент в ней*/
   width: 350px;
   position: relative;
 }
@@ -474,11 +474,21 @@ body {
   margin-left: 0px;
 }
 
+/* почему на кнопке FOLLOWER есть ефект на hover а на кнопке MASSAGE нет? */
 .content-block
   .content-conteiner
   .con-foll-mass
   .foll-mass-cover
   .follower-btn:hover {
+  background: black;
+}
+
+/* это для кнопки MESSAGE */
+.content-block
+  .content-conteiner
+  .con-foll-mass
+  .foll-mass-cover
+  .massage-btn:hover {
   background: black;
 }
 
@@ -745,6 +755,7 @@ body {
   flex-grow: 1;
 }
 
+/* на картинках надо было бы сделать курсор POINTER для понимания что их можно нажать */
 .content-block
   .work-conteiner
   .appreciations
@@ -754,6 +765,7 @@ body {
   margin: 20px 10px;
   overflow: hidden;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .content-block
@@ -764,3 +776,6 @@ body {
   img {
   width: 100%;
 }
+
+/* НУ А ТАК Я ТЕБЯ ПОЗДРАВЛЯЮ, ТЫ ЗАКОНЧИЛ СВОЙ ПЕРВЫЙ ЛЭНДИНГ ДИМОН */
+/* КРАСАВА )))  */
